@@ -11,7 +11,6 @@ cask 'pycask' do
   pkg "python-#{version}-macosx10.9.pkg"
 
   uninstall delete: [
-                      "/Library/Receipts/Python*-#{version.slice(%r{\d+\.\d+})}.pkg",
                       "/Applications/Python #{version.slice(%r{\d+\.\d+})}",
                       "/Library/Frameworks/Python.Framework/Versions/#{version.slice(%r{\d+\.\d+})}",
                       "/Library/Python/#{version.slice(%r{\d+\.\d+})}",
