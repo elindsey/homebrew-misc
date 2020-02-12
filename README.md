@@ -1,4 +1,4 @@
-# Elindsey Misc
+# elindsey misc
 
 ## How do I install these formulae?
 `brew install elindsey/misc/<formula>`
